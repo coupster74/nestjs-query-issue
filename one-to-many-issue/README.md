@@ -3,10 +3,12 @@
 intended to demo issue with oneToMany relationships with nestjs-query (https://github.com/TriPSs/nestjs-query fork) with one-to-many relationships. 
 
 ## to reproduce
-- pull the repo
-- run yarn start:dev:db & 
-- run yarn typeoorm:migration:run
-- tun yarn start:dev
+- `git clone https://github.com/coupster74/nestjs-query-issue.git`
+- `cd nestjs-query-issue/one-to-many-issue`
+- `yarn install`
+- `yarn run start:dev:db &`
+- `yarn run typeorm:migration:run`
+- `yarn run start:dev`
 
 then, within a graphql explorer (https://studio.apollographql.com/sandbox/explorer) connected to localhost:3000, run the following query
 
