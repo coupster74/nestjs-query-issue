@@ -1,0 +1,5 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "./src",
+  "entryFile": "one-to-many-issue/src/main"
+}

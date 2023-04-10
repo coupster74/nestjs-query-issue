@@ -1,0 +1,1 @@
+export const DEFAULT_QUERY_RESULTS = 1000;

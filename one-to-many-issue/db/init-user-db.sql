@@ -1,0 +1,2 @@
+CREATE USER testuser PASSWORD 'testpass';
+GRANT ALL PRIVILEGES ON DATABASE testdb TO testuser;
